@@ -1,0 +1,55 @@
+.site-header{
+    margin-top: 275px;
+    margin-bottom: 25px;
+    text-align: center;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Staatliches', cursive;
+    font-size: 75px;
+    color: white;
+}
+
+.background{
+    /*background-color: lightcyan;*/
+    background-image: url("../img/background.jpg");
+    background-size: 100%;
+}
+
+.input-field{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button-group{
+    margin-top: 25px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+#txtInput::placeholder{
+    text-align: center !important;
+}
+#txtInput:-ms-input-placeholder{
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .background{
+        /*background-color: lightcyan;*/
+        background-image: url("../img/background.jpg");
+        background-size: 100%;
+    }
+}
+@media only screen 
+and (device-width: 428px) 
+and (device-height: 926px) 
+and (-webkit-device-pixel-ratio: 3) {
+    .background{
+        background: linear-gradient(90deg, rgba(1,119,255,1) 0%, rgba(179,241,254,1) 100%) !important;
+    }
+}
